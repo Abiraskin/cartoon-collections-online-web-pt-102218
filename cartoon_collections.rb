@@ -20,7 +20,7 @@ end
 cheeses = ["cheddar", "gouda", "camembert"]
 
 def find_the_cheese(ingredients)
-  ingredients.find do |maybe_cheese|
-    cheeses?(maybe_cheese)
+  ingredients.find do |ingredient|
+    cheeses?(ingredient)
   end
 end

@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(calls)
   i = 0
-  while i < calls[i]
+  while calls[i] < 4
     true
     i += 1
   end

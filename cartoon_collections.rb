@@ -22,5 +22,5 @@ def find_the_cheese(ingredients)
 
   ingredients.find do |maybe_cheese|
     cheese_types?(maybe_cheese)
-  end  
+  end
 end

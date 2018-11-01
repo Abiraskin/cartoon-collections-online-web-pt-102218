@@ -15,6 +15,7 @@ def long_planeteer_calls(calls)
   i = 0
   while i < calls[i]
     true
+    i += 1
   end
 end
 

@@ -1,4 +1,4 @@
-def roll_call_dwarves(names) 
+def roll_call_dwarves(names)
   names.each do |name|
     puts "#{name}"
 end
